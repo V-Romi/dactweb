@@ -1,0 +1,25 @@
+.contact-title {
+    text-align: center;
+    font-size: 2rem;
+}
+.contact-description {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    .contact-title {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .contact-description {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        text-align: center;
+        padding: 0.8rem;
+    }
+    .contact-container {
+        margin: 4rem 5rem;
+    }
+}
