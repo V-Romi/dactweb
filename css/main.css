@@ -7,3 +7,40 @@
     --footer-background-color: #05316d;
     --section-body-backgroud-color: #f6f7f8;
 }
+
+.html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 60px; 
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+.horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.vertical-padding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media (min-width: 800px) {
+    .horizontal-padding {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .vertical-padding {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}
