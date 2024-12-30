@@ -1,0 +1,32 @@
+.we-container {
+    padding: 10px;
+    background-color: var(--section-body-backgroud-color);
+    box-shadow: 2px 2px 3px var(--navbar-shallow-color);
+    border-radius: 6px;
+}
+.we-title {
+    font-size: 2rem;
+    text-align: center;
+}
+.we-description {
+    margin: 15px 18px;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    text-align: center;
+}
+@media (min-width: 780px) {
+    .we-container {
+        padding: 25px;
+    }
+    .we-title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .we-description {
+        margin: 15px 18px;
+        line-height: 1.4;
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 0.4rem;
+    }
+}
