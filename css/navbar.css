@@ -9,7 +9,7 @@
 }
 .topnav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5px;
     max-width: 990px;
     margin: 0 auto;
@@ -20,11 +20,11 @@
     padding: 8px 5px;
 }
 .logo {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 400;
     display: flex;
     align-items: center;
-    padding-left: 15px;
+    padding-right: 25px;
     cursor: pointer;
 }
 .menu {
