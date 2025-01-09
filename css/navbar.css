@@ -9,8 +9,8 @@
 }
 .topnav {
     display: flex;
-    justify-content: space-around;
-    padding: 5px;
+    justify-content: space-between;
+    padding: 5px 20px;
     max-width: 990px;
     margin: 0 auto;
 }
@@ -24,7 +24,7 @@
     font-weight: 400;
     display: flex;
     align-items: center;
-    padding-right: 25px;
+    padding-left: 10px;
     cursor: pointer;
 }
 .menu {

@@ -3,7 +3,13 @@
     background-color: var(--section-body-backgroud-color);
     box-shadow: 2px 2px 3px var(--navbar-shallow-color);
     border-radius: 6px;
+  
 }
+
+.we-cont-descrip {
+    padding: 15px;
+}
+
 .we-title {
     font-size: 2rem;
     text-align: center;
@@ -18,6 +24,11 @@
     .we-container {
         padding: 25px;
     }
+
+    .we-cont-descrip {
+        padding: 0 25px;
+    }
+
     .we-title {
         font-size: 2.5rem;
         text-align: center;
