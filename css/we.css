@@ -1,6 +1,6 @@
 .we-container {
     padding: 10px;
-    background-color: var(--section-body-backgroud-color);
+    background-color: var(--section-we-backgroud-color);
     box-shadow: 2px 2px 3px var(--navbar-shallow-color);
     border-radius: 6px;
   

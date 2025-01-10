@@ -8,10 +8,10 @@
 }
 
 .services-container article {
-    background: var(--text-color);
+    background: var(--grid-background-color);
     border-radius: 8px;
     padding: 5px 18px;
-    color: var(--text-color-inverse);
+    color: var(--text-color);
 }
 .service-title {
     margin-top: 18px;

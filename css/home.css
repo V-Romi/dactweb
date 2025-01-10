@@ -1,12 +1,13 @@
 .home-img {
-    width: 70%;
-    height: 60%;
+    width: 80%; 
+    aspect-ratio: 683/384;
+    
 }
 .home {
     text-align: center;
 }
 .home-title {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.5;
     max-width: 90%;
@@ -25,22 +26,22 @@
 }
 
 @media (min-width: 768px) {
-    .home-img {
-        width: 80%;
-        height: 70%;
-    }
     .home {
+        display: flex;
         text-align: center;
     }
     .home-title {
-        font-size: 28px;
+        display: flex;
+        
+        font-size: 25px;
         font-weight:600;
         line-height: 1.5;
-        max-width: 90%;
-        margin: 0 auto;
+        max-width: 100%;
+        padding-top: 42px;
+        margin: 90px auto 20px auto;
     }
     .contacto-btn {
-        margin-top: 38px;
+        margin-top: 10px;
         margin-bottom: 30px;
         font-size: 20px;
         font-weight:800px;
