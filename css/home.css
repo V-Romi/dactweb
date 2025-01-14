@@ -1,14 +1,13 @@
 .home-img {
-    width: 80%; 
+    width: 90%; 
     aspect-ratio: 683/384;
-    
 }
 .home {
     text-align: center;
 }
 .home-title {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 1.4rem;
+    font-weight: 300;
     line-height: 1.5;
     max-width: 90%;
     margin: 0 auto;
@@ -25,16 +24,32 @@
     cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
+    .home-img {
+        width: 100%;
+    }
     .home {
         display: flex;
         text-align: center;
+        box-sizing: border-box;
+        align-items: center;
+        flex-direction: row;
+        max-width: 1400px;
+        max-height: 650px;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 16px;
+    }
+    .home-info {
+        flex: 1;
+    }
+    .home-img-section {
+        flex: 0.9;
     }
     .home-title {
         display: flex;
-        
-        font-size: 25px;
-        font-weight:600;
+        font-size: 2rem;
+        font-weight:300;
         line-height: 1.5;
         max-width: 100%;
         padding-top: 42px;
