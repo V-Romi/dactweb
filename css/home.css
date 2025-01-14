@@ -3,7 +3,17 @@
     aspect-ratio: 683/384;
 }
 .home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
     text-align: center;
+}
+.home-img-section {
+    flex: 0.9;
+}
+.home-info {
+    flex: 1;
 }
 .home-title {
     font-size: 1.4rem;
@@ -25,26 +35,26 @@
 }
 
 @media (min-width: 800px) {
-    .home-img {
-        width: 100%;
-    }
+    
     .home {
         display: flex;
         text-align: center;
         box-sizing: border-box;
         align-items: center;
         flex-direction: row;
-        max-width: 1400px;
-        max-height: 650px;
+        max-width: 1300px;
+        
         justify-content: center;
         margin: 0 auto;
         gap: 16px;
+        flex: 1;
     }
     .home-info {
         flex: 1;
     }
     .home-img-section {
         flex: 0.9;
+        padding-right: 10px;
     }
     .home-title {
         display: flex;
