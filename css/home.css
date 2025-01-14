@@ -1,5 +1,5 @@
 .home-img {
-    width: 90%; 
+    width: 94%; 
     aspect-ratio: 683/384;
 }
 .home {
@@ -23,7 +23,7 @@
     margin: 0 auto;
 }
 .contacto-btn {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
     margin-top: 25px;
     background-color: var(--text-color);
@@ -34,19 +34,17 @@
     cursor: pointer;
 }
 
+
 @media (min-width: 800px) {
-    
     .home {
         display: flex;
         text-align: center;
         box-sizing: border-box;
         align-items: center;
         flex-direction: row;
-        max-width: 1300px;
-        
+        max-width: 1500px;
         justify-content: center;
         margin: 0 auto;
-        gap: 16px;
         flex: 1;
     }
     .home-info {
@@ -54,21 +52,19 @@
     }
     .home-img-section {
         flex: 0.9;
-        padding-right: 10px;
     }
     .home-title {
         display: flex;
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight:300;
         line-height: 1.5;
-        max-width: 100%;
         padding-top: 42px;
-        margin: 90px auto 20px auto;
+        margin: 90px auto 20px 0;
     }
     .contacto-btn {
         margin-top: 10px;
         margin-bottom: 30px;
-        font-size: 20px;
+        font-size: 19px;
         font-weight:800px;
         background-color: var(--text-color);
         color: var(--text-color-inverse);
