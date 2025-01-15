@@ -46,7 +46,7 @@
         padding: 0.4rem;
     }
 
-@media (min-width: 781px) and (max-width: 1200px) {
+@media (min-width: 780px) and (max-width: 1200px) {
     .we-cont-descrip {
         padding: 0;
     }

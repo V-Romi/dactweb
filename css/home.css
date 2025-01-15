@@ -34,8 +34,47 @@
     cursor: pointer;
 }
 
-
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1070px) {
+    .home {
+        display: flex;
+        text-align: center;
+        box-sizing: border-box;
+        align-items: center;
+        flex-direction: row;
+        max-width: 1500px;
+        justify-content: center;
+        margin: 0 auto;
+        flex: 1;
+    }
+    .home-info {
+        flex: 1;
+    }
+    .home-img-section {
+        flex: 0.9;
+    }
+    .home-title {
+        display: flex;
+        font-size: 1.3rem;
+        font-weight:300;
+        line-height: 1.5;
+        padding-top: 42px;
+        margin: 90px auto 20px 0;
+    }
+    .contacto-btn {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        background-color: var(--text-color);
+        color: var(--text-color-inverse);
+        padding: 0.5em 1em;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    
+    }
+    
+}
+@media (min-width: 1071px) {
     .home {
         display: flex;
         text-align: center;
@@ -65,7 +104,6 @@
         margin-top: 10px;
         margin-bottom: 30px;
         font-size: 19px;
-        font-weight:800px;
         background-color: var(--text-color);
         color: var(--text-color-inverse);
         padding: 0.5em 1em;
@@ -74,5 +112,4 @@
         cursor: pointer;
     
     }
-    
 }

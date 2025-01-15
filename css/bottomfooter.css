@@ -2,10 +2,10 @@
     background-color: var(--text-color);
     left: 0;
     color: var(--text-color-inverse);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .globalfooter {
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 0.7rem;
     color: var(--text-color-inverse);
 }
@@ -28,31 +28,25 @@
 }
 
 @media (min-width: 780px) {
-    .bottomnav {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-    }
     .bottommenu {
         display: flex;
         justify-content: center;
     }
     .bottommenu a {
-        font-size: 1rem;
+        font-size: 0.8rem;
         line-height: 1.7rem;
         align-content: center;
         display: flex;
         justify-items: center;
     }
     .bottommenu-li {
-        padding: 0.8rem;
+        padding-right: 1rem;
     }
     .globalfooter {
         font-size: 0.9rem;
         display: flex;
         justify-content: center;
+        padding: 0 0.5rem 0.5rem 0.5rem;
     }
     .copyimg {
         width: 15px;
